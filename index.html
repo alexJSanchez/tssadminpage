@@ -7,14 +7,51 @@
     <link rel="stylesheet" href="/style.css">
     <title>TssAdminPage</title>
 </head>
+<main>
+    <header>
 
-<body>
-    <div style="text-align: center; background-color: #2773ae; padding-top: 10px; padding-bottom: 10px; color: white;    margin-left: -20px;
-    margin-right: -20px;">Take a test drive of TSSadmin Express™ on your system or ours! You'll get the fully
-        functional product, dedicated support and a comprehensive training program. <a
-            style="text-decoration: underline; color: white; font-weight: bold;"
-            href="https://calendly.com/tssadmin/tssadmin-express-live-demonstration">Book a Live Demonstration!</a>
-    </div>
-</body>
+        <body>
+
+            <div class="top_header">Take a test drive of TSSadmin Express™ on your system or ours! You'll get the
+                fully
+                functional product, dedicated support and a comprehensive training program. <a
+                    style="text-decoration: underline; color: white; font-weight: bold;"
+                    href="https://calendly.com/tssadmin/tssadmin-express-live-demonstration">Book a Live
+                    Demonstration!</a>
+            </div>
+            <div class="content_container">
+                <div class="header">
+                    <div class="header_logo">
+                        <a href="/"> <img src="./images/tssadminlogo-color.PNG" alt=""></a>
+                    </div>
+                    <div class="header_login">
+                        <div><strong>Customer Login</strong></div>
+                        <form class="form-inline" method="POST" action="https://tssadmin.com/webapp/login? ">
+                            <input type="hidden" name="_token" value="Zn7KUZHFwsaO10kHS0OuGGKi84jDoxOGBWTu7q7t"> <input
+                                type="text" class="input-small" placeholder="username" name="username" maxlength="30"
+                                tabindex="1">
+                            <input type="password" class="input-small" placeholder="password" name="password"
+                                maxlength="30" tabindex="2">
+                            <button type="submit" class="btn btn-primary" tabindex="3">Login</button>
+                        </form>
+                        <a href="https://tssadmin.com/webapp/register" style="display: block;">New User
+                            Registration</a>
+                    </div>
+                </div>
+                <div class="container">
+                    <select name="nav-select" id="">
+                        <option value="https://tssadmin.com">Home</option>
+                        <option value="https://tssadmin.com/webapp/login">Support & Downloads</option>
+                        <option value="/TSSadminExpressDoForYou2012.pdf">Product Info</option>
+                        <option value="https://tssadmin.com/contact">Contact Us</option>
+                    </select>
+                </div>
+                <div class="bannercontiner">
+
+                </div>
+            </div>
+        </body>
+    </header>
+</main>
 
 </html>
