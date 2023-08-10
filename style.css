@@ -185,6 +185,31 @@ h2 {
 		justify-content: space-between;
 	}
 	.form-login {
-		display: block;
+	}
+	.header_login {
+		margin: 40px 30px 20px;
+	}
+	.container {
+		display: none;
+	}
+	.container_hidden {
+	}
+	.hidden_nav {
+		display: flex;
+		list-style: none;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+	}
+	.hidden_nav li {
+		border-right: 1px dotted #ccc;
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 16px;
+		margin-bottom: 0;
+		padding: 15px 15px 8px;
+		text-shadow: none;
+	}
+	.hidden_nav li a {
+		color: #333;
 	}
 }
